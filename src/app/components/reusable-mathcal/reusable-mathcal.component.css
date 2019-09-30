@@ -1,0 +1,15 @@
+.form-container{
+    position: relative;
+    width: 300px;
+    border: 2px double darkmagenta;
+    padding: 10px;
+   
+}
+
+.extend-width{
+    width:100%;
+}
+.btn-align-center{
+    margin-left: 50%;
+
+}

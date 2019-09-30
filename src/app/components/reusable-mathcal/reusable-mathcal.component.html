@@ -1,0 +1,22 @@
+<div class="form-container">
+    <form class="form-signin">
+  
+      <h1 class="h3 mb-3 font-weight-normal">{{title}}</h1>
+      <div>
+        <br>
+        <span class="ui-float-label">
+          <input autocomplete="off" id="float-input" class="extend-width" type="text" size="30" pInputText [(ngModel)]="nthTerm" name="nthTerm" (keyup)="onKeyUp($event)">
+          <label for="float-input">Enter the input</label>
+        </span>
+        <br>
+        <span class="ui-float-label">
+          <input id="float-input" class="extend-width" type="text" size="30" pInputText [(ngModel)]="output" name="output">
+          <label for="float-input">output</label>
+        </span>
+        <br>
+  
+      </div>
+  
+    </form>
+  
+  </div>
